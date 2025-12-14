@@ -1,0 +1,535 @@
+.app {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1599.98px) {
+    #bookingModal .modal-dialog {
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 1399.98px) {
+    .top-post-left {
+        flex: 2.63;
+    }
+
+    .caption-info-bar {
+        gap: 6px !important;
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    .app {
+        width: 992px;
+    }
+
+    .manual-image-space {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        margin: 0 0 0 5px;
+        line-height: 3.45;
+    }
+
+    .header nav ul li {
+        margin: 0 0 0 5px;
+    }
+
+    .intro-text {
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 8px;
+        color: white;
+    }
+
+    .carousel-caption {
+        transform: translate(-9%);
+        width: 60%;
+    }
+
+    .top-post-left {
+        flex: 3.2;
+    }
+
+    .caption-info-bar li {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 991.98px) {
+    .app {
+        width: 768px;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    .link-menu {
+        font-size: 12px;
+    }
+
+    .header nav ul li {
+        margin: 0 0 0 4px !important;
+    }
+
+    .footer-about p {
+        width: auto;
+    }
+
+    .middle-intro {
+        display: none;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        margin: 0 0 0 0px;
+        line-height: 3.45;
+    }
+
+    #submenu {
+        padding: 0 19px;
+    }
+
+    .link-menu {
+        padding: 0 3px 0px 3px;
+    }
+
+    .social-item {
+        filter: blur(0px);
+        transition: all 0s;
+    }
+
+    .social-item:hover {
+        margin: 0px;
+    }
+
+    .social-item>img {
+        width: 70px;
+    }
+
+    .card-img {
+        width: 80% !important;
+    }
+
+    .carousel-caption {
+        width: 60%;
+        transform: translate(-30%);
+        right: 0 !important;
+    }
+
+    #bookingModal .modal-dialog {
+        max-width: 70%;
+    }
+
+    .res-font {
+        font-size: 18px !important;
+    }
+
+    .promo-item {
+        width: 47%;
+    }
+
+    .top-post-left {
+        flex: 100%;
+    }
+
+    .top-post-left {
+        margin: 20px 0;
+    }
+
+    .post-title {
+        font-size: 17px !important;
+    }
+
+    .breaking-news-banner {
+        margin-bottom: 20px !important;
+    }
+
+    /* top selected posts */
+
+    .intro-2-3-col {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+
+    .intro-1-3-col {
+        width: 100%;
+    }
+
+    .intro-1-3-col-item {
+        float: none;
+        width: 100%;
+    }
+
+    .intro-1-3-col-item:nth-of-type(2) {
+        float: none;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .intro-h-600px {
+        height: auto;
+    }
+
+    .intro-h-100 {
+        height: auto;
+    }
+
+    .intro-h-50 {
+        height: auto;
+    }
+
+    .intro-h-2-3 {
+        height: auto;
+    }
+
+    .intro-h-1-3 {
+        height: auto;
+    }
+
+    .h-md-300px {
+        margin-bottom: 15px;
+        aspect-ratio: 16 / 10.7;
+        width: 100%;
+    }
+
+    .caption-info-bar {
+        gap: 20px !important;
+    }
+
+    .caption-info-bar li {
+        font-size: 15px;
+    }
+
+    .m-10 {
+        margin: 10px 0px 5px 0px;
+    }
+
+    .res-mt-5 {
+        margin-top: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 804.98px) {
+    .arrow-up {
+        background: linear-gradient(12deg, #1e293b, #0f172a);
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .app {
+        width: 600px;
+    }
+
+    header nav .logo {
+        float: right !important;
+    }
+
+    header nav .logo img {
+        width: 50%;
+        margin: 15px 0;
+    }
+
+    .move-down {
+        margin-top: 490px;
+        right: 300px;
+    }
+
+    .social-svg {
+        display: none;
+    }
+
+    footer {
+        height: 900px;
+    }
+
+    .sections {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .working-hours-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: #f8f9fa;
+    }
+
+    .image-section {
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .image-section img {
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+    }
+
+    .hours-table-section {
+        width: 100%;
+        max-width: 800px;
+        text-align: center;
+    }
+
+    .hours-table-section h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid #ddd;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #f0f0f0;
+    }
+
+    button.reserve-btn {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    button.reserve-btn:hover {
+        background-color: #45a049;
+    }
+
+    .social-item {
+        width: 100%;
+    }
+
+    .social-item>img {
+        width: 70px;
+    }
+
+    .card-img {
+        width: 100% !important;
+    }
+
+    .menu-items {
+        padding: 0;
+    }
+
+    .navbar {
+        padding: 0px !important;
+    }
+
+    .carousel-caption {
+        width: 90%;
+        transform: translate(-5%);
+    }
+
+    .arrow-up {
+        background: linear-gradient(7deg, #1e293b, #0f172a);
+    }
+
+    #bookingModal .modal-dialog {
+        max-width: 95%;
+    }
+
+    .loc-1 {
+        display: none !important;
+    }
+
+    .loc-2 {
+        display: block !important;
+    }
+
+    .mobile-swiper {
+        max-width: 100% !important;
+    }
+
+    .res-font {
+        font-size: 20px !important;
+    }
+
+    .promo-item {
+        width: 47%;
+    }
+
+    .intro-text {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 588.98px) {
+    .menu-active {
+        margin: 5px 5px !important;
+    }
+
+}
+
+@media screen and (max-width: 575.98px) {
+    .app {
+        width: calc(100% - 30px);
+        padding: 0 15px;
+    }
+
+    #responsive-navigation {
+        display: block;
+        width: 200px;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: -200px;
+        z-index: 3;
+    }
+
+    .menu-items {
+        display: none;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    header nav {
+        height: 60px;
+    }
+
+    .burger-menu {
+        display: block;
+        font-size: 25px;
+        line-height: 2.3;
+        float: right;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .app {
+        padding: 4px 15px;
+    }
+
+    .header-description h1 {
+        font-size: 35px;
+    }
+
+    .manual-image-space {
+        float: left;
+        margin-top: 5px;
+    }
+
+    .link-menu {
+        width: 90%;
+    }
+
+    .move-down {
+        margin-top: 759px;
+    }
+
+    .sections {
+        margin: 0px;
+    }
+
+    .card-header {
+        padding: 5px;
+    }
+
+    .bar {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 529.98px) {
+    .app {
+        width: calc(100% - 30px);
+        padding: 0 15px;
+    }
+
+    .header-description h1 {
+        font-size: 20px;
+    }
+
+    .header-description p {
+        font-size: 15px;
+    }
+
+    footer {
+        height: 1000px;
+    }
+
+    .title-section {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+    }
+
+    .title-section img {
+        margin: 20px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 18px !important;
+    }
+
+    .intro-text {
+        width: 90%;
+    }
+
+    .sweet {
+        position: relative;
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 430.98px) {
+    .res-font-2 {
+        font-size: 14px;
+    }
+
+    .caption-info-bar {
+        gap: 9px !important;
+    }
+
+    .caption-info-bar li {
+        font-size: 12px;
+    }
+
+    .breaking-label {
+        font-size: 11px;
+    }
+
+    .breaking-news-banner a {
+        font-size: 14px;
+    }
+
+    .promo-item {
+        width: 46%;
+    }
+}

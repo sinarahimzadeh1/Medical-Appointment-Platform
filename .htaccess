@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ project/index.php [QSA,L]
+
+php_value upload_max_filesize 20M
+php_value post_max_size 25M
+php_value memory_limit 128M
